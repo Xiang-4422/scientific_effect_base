@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:scientific_effect_base/add__page.dart';
 
 import 'home_page.dart';
 
@@ -18,7 +17,6 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => HomePage(),
         "resultPage": (context) => HomePage(),
-        "addPage": (context) => AddPage(),
       },
     );
   }
